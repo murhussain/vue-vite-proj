@@ -1,12 +1,7 @@
 <script>
-  import swal from 'sweetalert';
-
+  import flash from '@/mixins/flash'
   export default {
-    methods: {
-      flash(message) {
-        swal('success!', message, 'success');
-      }
-    }
+    mixins: [flash]
   }
 </script>
 
