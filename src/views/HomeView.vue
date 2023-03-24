@@ -1,3 +1,4 @@
+<!-- eslint-disable no-undef -->
 <script setup>
 import TheWelcome from '../components/TheWelcome.vue'
 
