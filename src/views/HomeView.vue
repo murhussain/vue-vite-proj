@@ -1,5 +1,3 @@
-
-
 <script setup>
   import { useFlash } from '../composables/useFlash';
   
@@ -9,7 +7,7 @@
 <template>
   <main>
     <p>
-      <button @click="flash('It works!')">Click Me</button>
+      <button @click="flash('Yey!','It works on the home Page', 'info')">Click Me</button>
     </p>
   </main>
 </template>
