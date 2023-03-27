@@ -8,6 +8,11 @@ let counter = useCounterStore();
   <div>
     <p>{{counter.count}}</p>
 
-    <button @click="counter.count ++">Increment</button>
+    <button 
+      @click="counter.increment"
+      :disabled="! counter.remaining"
+    >
+      Increment ({{counter.remaining}}) Remaining
+    </button>
   </div>
 </template>
