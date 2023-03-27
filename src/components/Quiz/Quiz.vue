@@ -1,6 +1,6 @@
 // eslint-disable-next-line vue/multi-word-component-names
 <template>
-  <h1>{{ name }}</h1>
+  <h1>this is me {{ quiz.name }}</h1>
   <QuizHeader />
 
   <!-- <QuizQuestion /> -->

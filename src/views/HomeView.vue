@@ -5,7 +5,6 @@ import Quiz from '@/components/Quiz/Quiz.vue';
 
 <template>
   <main>
-    <h2>Hello there</h2>
     <Quiz :quiz="state" />
   </main>
 </template>
