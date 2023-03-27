@@ -1,6 +1,11 @@
+<script setup>
+import { state } from '@/store/quizStore.js';
+import Quiz from '@/components/Quiz/Quiz.vue';
+</script>
+
 <template>
   <main>
-    <h2>hello there</h2>
-    <QuizVue :quiz="{name: 'My first Quiz', question:[]}" />
+    <h2>Hello there</h2>
+    <Quiz :quiz="state" />
   </main>
 </template>
